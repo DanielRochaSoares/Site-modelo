@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+#body{
+    margin 0px; 
+    font-family: 'Oswald', sans-serif;
+}
+#logo{
+    width: 100px;
+}
+
+#contender{
+    background-image:url(../assets/images/fundo\ header.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding: 30px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#main{
+    color: white;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+#title-main{
+    font-size: 60px;
+    font-weight: 600;
+}
+#logo2{
+    position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:100px;
+	margin-top:-40px;;
+}
+#rectangle-contender{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    right: 400px;
+    padding-top: 200px;
+}
+#square1{
+    border: 3px solid black ;
+    width: 380px;
+    padding: 30px;
+
+}
+#square2{
+    border: 3px solid black;
+    width:380px;
+	left:100%;
+	top:200%;
+    padding:30px;
+}
+#square3{
+    border: 3px solid black;
+    width:380px;
+	left:25%;
+	top:120%;
+    padding: 30px;  
+    
+}
